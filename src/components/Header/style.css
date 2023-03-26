@@ -1,0 +1,22 @@
+.header-container {
+    position: relative;
+    top: 70px;
+    left: 0;
+    width: 20vw;
+    border-bottom-right-radius: 50px;
+    padding: 50px 17px;
+    font-size: 15px;
+    font-family: 'Syncopate';
+    color: #6e6e6e;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-menu{
+    overflow: hidden;
+}
+.header-container ul li{
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+}

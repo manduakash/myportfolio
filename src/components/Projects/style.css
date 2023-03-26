@@ -1,0 +1,81 @@
+.project-section{
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+/* heading */
+.project-header {
+    width: 100%;
+    padding-top: 50px;
+}
+.project-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    transform: skew(10deg, 3deg);
+}
+.project-subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 550px;
+    margin-top: 25px;
+    transform: skew(10deg, 3deg);
+}
+.project-title h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 8px;
+    background: #f1e868;
+    box-shadow: 2px 5px 2px #666229;
+}
+.project-subtitle h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 4px;
+    background: #a19b46;
+    box-shadow: 2px 5px 2px #596629;
+}
+.projects-container {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+
+.proj-card {
+    background: #f0f0f0;
+    border-radius: 8px;
+    border-top: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(170, 170, 170);
+    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 1px 4px 6px #646463dc;
+    font-family: 'Bodoni Moda', serif;
+    margin-bottom: 20px !important;
+}
+.proj-card:hover {
+    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 2px 4px 2px #646463dc;
+    transform: scale(1.02);
+}
+.proj-img {
+    width: 28rem;
+    height: 16rem;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+}
+.proj-img:hover {
+    filter: brightness(50%) blur(2px);
+}

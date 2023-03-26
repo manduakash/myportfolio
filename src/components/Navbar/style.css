@@ -1,0 +1,22 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Syncopate';
+    color: #464646;
+    background: #ffffff46;
+    font-weight: 600;
+    text-transform: uppercase;
+    backdrop-filter: blur(1px);
+}
+.cv{
+    cursor: pointer;
+}

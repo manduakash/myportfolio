@@ -1,0 +1,46 @@
+.landing-page-section{
+    width: 100%;
+    min-height: 80vh;
+    background: #ffffff;
+}
+
+.header-text{
+    top: -100px !important;
+}
+
+.title h1{
+    font-size: 6vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+}
+
+.subtitle h1{
+    font-size: 14vw;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+}
+.myself h5{
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+}
+.title {
+    height: 100px;
+    overflow-y: hidden;
+}
+
+.subtitle {
+    height: 200px;
+    overflow-y: hidden;
+}
+.myself {
+    height: 50px;
+    overflow-y: hidden;
+}
