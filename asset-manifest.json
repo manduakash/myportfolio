@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.cb87518a.css",
-    "main.js": "/myportfolio/static/js/main.27bc95c1.js",
+    "main.js": "/myportfolio/static/js/main.ed0bc1ab.js",
     "static/media/landing_page_img.jpg": "/myportfolio/static/media/landing_page_img.d05dd9210b33f8514890.jpg",
     "static/media/inotebook.png": "/myportfolio/static/media/inotebook.07e6804c8081c749b0dd.png",
     "static/media/bankmanagementsystem.png": "/myportfolio/static/media/bankmanagementsystem.22c186fba672d7687686.png",
@@ -15,10 +15,10 @@
     "static/media/coding.png": "/myportfolio/static/media/coding.d0cf8c0c4bd89ee46719.png",
     "index.html": "/myportfolio/index.html",
     "main.cb87518a.css.map": "/myportfolio/static/css/main.cb87518a.css.map",
-    "main.27bc95c1.js.map": "/myportfolio/static/js/main.27bc95c1.js.map"
+    "main.ed0bc1ab.js.map": "/myportfolio/static/js/main.ed0bc1ab.js.map"
   },
   "entrypoints": [
     "static/css/main.cb87518a.css",
-    "static/js/main.27bc95c1.js"
+    "static/js/main.ed0bc1ab.js"
   ]
 }
