@@ -21,13 +21,13 @@ const Header = () => {
   }, [scroll])
 
   return (
-    <section className='header-container' data-scroll-section>
+    <section className='header-container' id='home-section' data-scroll-section>
       <ul className='header-menu'>
-        <li className="scroll" data-scroll>Intro</li>
-        <li className="scroll" data-scroll>About</li>
-        <li className="scroll" data-scroll>Skills</li>
-        <li className="scroll" data-scroll>Projects</li>
-        <li className="scroll" data-scroll>Contact</li>
+        <li className="scroll" data-scroll ><a data-scroll-to href="#home-section">Intro</a></li>
+        <li className="scroll" data-scroll ><a data-scroll-to href="#about-section">About</a></li>
+        <li className="scroll" data-scroll ><a data-scroll-to href="#tech-section">Skills</a></li>
+        <li className="scroll" data-scroll ><a data-scroll-to href="#project-section">Projects</a></li>
+        <li className="scroll" data-scroll ><a data-scroll-to href="#contact-section">Contact</a></li>
       </ul>
     </section>
   )

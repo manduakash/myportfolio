@@ -33,38 +33,46 @@ const TechSkills = () => {
         techtitleRef.current.style.transform = `translateX(${temp1 * 0.5}px)`
         techsubtitleRef.current.style.transform = `translateX(-${temp2 * 0.5}px)`
         //progress scroll
-        document.getElementById('progress-React').style.transform = `translateX(${(progress>20?(progress-20):0) * 0.3}px)`
-        document.getElementById('progress-Html').style.transform = `translateX(-${(progress>50?(progress-50):0) * 0.3}px)`
-        document.getElementById('progress-Css').style.transform = `translateX(${(progress>100?(progress-100):0) * 0.3}px)`
-        document.getElementById('progress-JavaScript').style.transform = `translateX(-${(progress>150?(progress-150):0) * 0.3}px)`
-        document.getElementById('progress-Bootstrap').style.transform = `translateX(${(progress>200?(progress-200):0) * 0.3}px)`
-        document.getElementById('progress-Angular').style.transform = `translateX(-${(progress>250?(progress-250):0) * 0.3}px)`
-        document.getElementById('progress-Express').style.transform = `translateX(${(progress>300?(progress-300):0) * 0.3}px)`
-        document.getElementById('progress-Node').style.transform = `translateX(-${(progress>350?(progress-350):0) * 0.3}px)`
-        document.getElementById('progress-Python').style.transform = `translateX(${(progress>400?(progress-400):0) * 0.3}px)`
-        document.getElementById('progress-MySQL').style.transform = `translateX(-${(progress>450?(progress-450):0) * 0.3}px)`
-        document.getElementById('progress-MongoDB').style.transform = `translateX(${(progress>500?(progress-500):0) * 0.3}px)`
-        document.getElementById('progress-Java').style.transform = `translateX(-${(progress>550?(progress-550):0) * 0.3}px)`
+        document.getElementById('progress-React').style.transform = `translateX(${(progress > 20 ? (progress - 20) : 0) * 2.3}px)`
+        document.getElementById('progress-Html').style.transform = `translateX(-${(progress > 50 ? (progress - 50) : 0) * 2.3}px)`
+        document.getElementById('progress-Css').style.transform = `translateX(${(progress > 100 ? (progress - 100) : 0) * 2.3}px)`
+        document.getElementById('progress-JavaScript').style.transform = `translateX(-${(progress > 150 ? (progress - 150) : 0) * 2.3}px)`
+        document.getElementById('progress-Bootstrap').style.transform = `translateX(${(progress > 200 ? (progress - 200) : 0) * 2.3}px)`
+        document.getElementById('progress-Angular').style.transform = `translateX(-${(progress > 250 ? (progress - 250) : 0) * 2.3}px)`
+        document.getElementById('progress-Express').style.transform = `translateX(${(progress > 300 ? (progress - 300) : 0) * 2.3}px)`
+        document.getElementById('progress-Node').style.transform = `translateX(-${(progress > 350 ? (progress - 350) : 0) * 2.3}px)`
+        document.getElementById('progress-Python').style.transform = `translateX(${(progress > 400 ? (progress - 400) : 0) * 2.3}px)`
+        document.getElementById('progress-MySQL').style.transform = `translateX(-${(progress > 450 ? (progress - 450) : 0) * 2.3}px)`
+        document.getElementById('progress-MongoDB').style.transform = `translateX(${(progress > 500 ? (progress - 500) : 0) * 2.3}px)`
+        document.getElementById('progress-Java').style.transform = `translateX(-${(progress > 550 ? (progress - 550) : 0) * 2.3}px)`
         // skill bubble scroll
-        document.getElementById('f-skill1').style.transform = `scale(0.7) translateX(-${(skillbubble>200?(skillbubble-200):0) * 4}px)`
-        document.getElementById('f-skill2').style.transform = `scale(0.7) translateX(-${(skillbubble>200?(skillbubble-200):0) * 8}px)`
-        document.getElementById('f-skill3').style.transform = `scale(0.7) translateX(${(skillbubble>200?(skillbubble-200):0) * 4}px)`
-        document.getElementById('f-skill4').style.transform = `scale(0.7) translateX(${(skillbubble>200?(skillbubble-200):0) * 8}px)`
-        document.getElementById('f-skill5').style.transform = `scale(0.7) translateX(-${(skillbubble>500?(skillbubble-500):0) * 4}px)`
-        document.getElementById('f-skill6').style.transform = `scale(0.7) translateX(-${(skillbubble>500?(skillbubble-500):0) * 8}px)`
-        document.getElementById('f-skill7').style.transform = `scale(0.7) translateX(${(skillbubble>500?(skillbubble-500):0) * 4}px)`
-        document.getElementById('f-skill8').style.transform = `scale(0.7) translateX(${(skillbubble>500?(skillbubble-500):0) * 8}px)`
-        document.getElementById('f-skill9').style.transform = `scale(0.7) translateX(-${(skillbubble>700?(skillbubble-700):0) * 4}px)`
-        document.getElementById('f-skill10').style.transform = `scale(0.7) translateX(-${(skillbubble>700?(skillbubble-700):0) * 8}px)`
-        document.getElementById('f-skill11').style.transform = `scale(0.7) translateX(${(skillbubble>700?(skillbubble-700):0) * 4}px)`
-        document.getElementById('f-skill12').style.transform = `scale(0.7) translateX(${(skillbubble>700?(skillbubble-700):0) * 8}px)`
+        document.getElementById('f-skill1').style.transform = `scale(0.7) translateX(-${(skillbubble > 250 ? (skillbubble - 250) : 0) * 8}px)`
+        document.getElementById('f-skill2').style.transform = `scale(0.7) translateX(-${(skillbubble > 250 ? (skillbubble - 250) : 0) * 8}px)`
+        document.getElementById('f-skill3').style.transform = `scale(0.7) translateX(${(skillbubble > 250 ? (skillbubble - 250) : 0) * 8}px)`
+        document.getElementById('f-skill4').style.transform = `scale(0.7) translateX(${(skillbubble > 250 ? (skillbubble - 250) : 0) * 8}px)`
+        document.getElementById('f-skill5').style.transform = `scale(0.7) translateX(-${(skillbubble > 500 ? (skillbubble - 500) : 0) * 8}px)`
+        document.getElementById('f-skill6').style.transform = `scale(0.7) translateX(-${(skillbubble > 500 ? (skillbubble - 500) : 0) * 8}px)`
+        document.getElementById('f-skill7').style.transform = `scale(0.7) translateX(${(skillbubble > 500 ? (skillbubble - 500) : 0) * 8}px)`
+        document.getElementById('f-skill8').style.transform = `scale(0.7) translateX(${(skillbubble > 500 ? (skillbubble - 500) : 0) * 8}px)`
+        document.getElementById('f-skill9').style.transform = `scale(0.7) translateX(-${(skillbubble > 700 ? (skillbubble - 700) : 0) * 8}px)`
+        document.getElementById('f-skill10').style.transform = `scale(0.7) translateX(-${(skillbubble > 700 ? (skillbubble - 700) : 0) * 8}px)`
+        document.getElementById('f-skill11').style.transform = `scale(0.7) translateX(${(skillbubble > 700 ? (skillbubble - 700) : 0) * 8}px)`
+        document.getElementById('f-skill12').style.transform = `scale(0.7) translateX(${(skillbubble > 700 ? (skillbubble - 700) : 0) * 8}px)`
 
+        // setting title
+        if (obj.scroll.y>1350 && obj.scroll.y<2300) {
+          document.getElementById('title').innerText = 'Portfolio | Technical Skills';
+        }
+        // setting title
+        if (obj.scroll.y>2300 && obj.scroll.y<2800) {
+          document.getElementById('title').innerText = 'Portfolio | Skill Levels';
+        }
       })
     }
     return () => { };
   }, [scroll])
   return (
-    <section className='technical-skill-section' data-scroll-section>
+    <section className='technical-skill-section' id='tech-section' data-scroll-section>
 
       <div className="tech-container">
 
@@ -185,66 +193,66 @@ const TechSkills = () => {
         </div>
 
         {/* ---------------------skills progress------------------------ */}
-        <div className="tech-skill-progress container">
+        <div className="tech-skill-progress container" id='tech-progress'>
 
           <label htmlFor="progress-React">React</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-React' data-scroll>
-            <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" style={{ width: "80%" }}>80%</div>
+            <div className="progress-bar rounded-pill bg-info progress-bar-striped progress-bar-animated" style={{ width: "80%" }}>80%</div>
           </div>
 
           <label htmlFor="progress-Html">Html</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Html' data-scroll>
-            <div className="progress-bar bg-primary progress-bar-striped progress-bar-animated" style={{ width: "85%" }}>85%</div>
+            <div className="progress-bar rounded-pill bg-primary progress-bar-striped progress-bar-animated" style={{ width: "85%" }}>85%</div>
           </div>
 
           <label htmlFor="progress-Css">Css</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Css' data-scroll>
-            <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "90%" }}>90%</div>
+            <div className="progress-bar rounded-pill bg-success progress-bar-striped progress-bar-animated" style={{ width: "90%" }}>90%</div>
           </div>
 
           <label htmlFor="progress-JavaScript">JavaScript</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-JavaScript' data-scroll>
-            <div className="progress-bar bg-warning progress-bar-striped progress-bar-animated" style={{ width: "70%" }}>70%</div>
+            <div className="progress-bar rounded-pill bg-warning progress-bar-striped progress-bar-animated" style={{ width: "70%" }}>70%</div>
           </div>
 
           <label htmlFor="progress-Bootstrap">Bootstrap</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Bootstrap' data-scroll>
-            <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" style={{ width: "85%" }}>85%</div>
+            <div className="progress-bar rounded-pill bg-info progress-bar-striped progress-bar-animated" style={{ width: "85%" }}>85%</div>
           </div>
 
           <label htmlFor="progress-Angular">Angular</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Angular' data-scroll>
-            <div className="progress-bar bg-danger progress-bar-striped progress-bar-animated" style={{ width: "60%" }}>60%</div>
+            <div className="progress-bar rounded-pill bg-danger progress-bar-striped progress-bar-animated" style={{ width: "60%" }}>60%</div>
           </div>
 
           <label htmlFor="progress-Express">Express</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Express' data-scroll>
-            <div className="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style={{ width: "65%" }}>65%</div>
+            <div className="progress-bar rounded-pill bg-secondary progress-bar-striped progress-bar-animated" style={{ width: "65%" }}>65%</div>
           </div>
 
           <label htmlFor="progress-Node">Node</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Node' data-scroll>
-            <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "65%" }}>65%</div>
+            <div className="progress-bar rounded-pill bg-success progress-bar-striped progress-bar-animated" style={{ width: "65%" }}>65%</div>
           </div>
 
           <label htmlFor="progress-Python">Python</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Python' data-scroll>
-            <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" style={{ width: "50%" }}>50%</div>
+            <div className="progress-bar rounded-pill bg-info progress-bar-striped progress-bar-animated" style={{ width: "50%" }}>50%</div>
           </div>
 
           <label htmlFor="progress-MySQL">MySQL</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-MySQL' data-scroll>
-            <div className="progress-bar bg-warning progress-bar-striped progress-bar-animated" style={{ width: "70%" }}>70%</div>
+            <div className="progress-bar rounded-pill bg-warning progress-bar-striped progress-bar-animated" style={{ width: "70%" }}>70%</div>
           </div>
 
           <label htmlFor="progress-MongoDB">MongoDB</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-MongoDB' data-scroll>
-            <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "75%" }}>75%</div>
+            <div className="progress-bar rounded-pill bg-success progress-bar-striped progress-bar-animated" style={{ width: "75%" }}>75%</div>
           </div>
 
           <label htmlFor="progress-Java">Java</label>
           <div className="progress rounded-pill mb-3" role="progressbar" id='progress-Java' data-scroll>
-            <div className="progress-bar bg-danger progress-bar-striped progress-bar-animated" style={{ width: "60%" }}>60%</div>
+            <div className="progress-bar rounded-pill bg-danger progress-bar-striped progress-bar-animated" style={{ width: "60%" }}>60%</div>
           </div>
 
         </div>

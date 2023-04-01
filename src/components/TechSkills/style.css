@@ -94,8 +94,11 @@
     color: #fff;
 }
 .progress {
-    height: 30px !important;
-    backdrop-filter: drop-shadow(10px, 10px );
+    height: 15px !important;
+    box-shadow: 2px 3px 2px #8e9091fa;
+}
+.progress:hover {
+    transform: scale(1.01) !important;
 }
 
 #progress-React:hover {

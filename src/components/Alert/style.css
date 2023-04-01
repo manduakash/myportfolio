@@ -1,0 +1,6 @@
+.alert {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.btn-close:focus {
+    box-shadow: none;
+}

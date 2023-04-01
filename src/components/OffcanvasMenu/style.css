@@ -1,10 +1,13 @@
-.header-container {
-    position: relative;
-    padding: 50px 17px;
-    left: 0;
-    z-index: 10;
-    width: 20vw;
-    border-bottom-right-radius: 50px;
+.offcanvas-title {
+    font-size: 20px;
+    font-family: 'Syncopate';
+    color: #d14545;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu{
+    overflow: hidden;
     font-size: 15px;
     font-family: 'Syncopate';
     color: #6e6e6e;
@@ -12,19 +15,16 @@
     font-weight: 700;
     text-transform: uppercase;
 }
-.header-menu{
-    overflow: hidden;
-}
-.header-container ul li{
+.menu ul li{
     list-style: none;
     margin-top: 10px;
     cursor: pointer;
 }
-.scroll a {
+.menu-item a {
     text-decoration: none;
     color: #6e6e6e;
 }
-.scroll a:hover {
+.menu-item a:hover {
     font-weight: bold;
     color: #b43737;
 }

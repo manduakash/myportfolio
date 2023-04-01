@@ -1,0 +1,96 @@
+.Interests-section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* heading */
+.interests-header {
+    width: 100%;
+    padding-top: 50px;
+}
+.interests-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    transform: skew(10deg, 3deg);
+}
+.interests-subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 550px;
+    margin-top: 25px;
+    transform: skew(10deg, 3deg);
+}
+.interests-title h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 8px;
+    background: #f1e868;
+    box-shadow: 2px 5px 2px #666229;
+}
+.interests-subtitle h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 4px;
+    background: #a19b46;
+    box-shadow: 2px 5px 2px #596629;
+}
+.intrst-img-div {
+    width: 20rem;
+    height: 20rem;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border-top: 3px solid rgba(67, 68, 68, 0.658);
+    box-shadow: 0px 6px 4px #6b6b6b;
+    transition-duration: 500ms;
+}
+.intrst-img-div:hover {
+    box-shadow: 0px 8px 8px #252525b4;
+    transform: scale(1.08);
+    transition-duration: 500ms;
+}
+.intrst-img {
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition-duration: 3000ms;
+}
+.intrst-img:hover {
+    transform: scale(1.03);
+    border-top: 3px solid rgba(107, 106, 106, 0.658);
+    box-shadow: 0px 4px 10px #161616;
+    filter: grayscale(0%);
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}
+.intrst-heading {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

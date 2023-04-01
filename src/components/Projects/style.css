@@ -59,15 +59,27 @@
 .proj-card {
     background: #f0f0f0;
     border-radius: 8px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     border-top: 1px solid rgb(190, 190, 190);
     border-left: 1px solid rgb(170, 170, 170);
-    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 1px 4px 6px #646463dc;
     font-family: 'Bodoni Moda', serif;
     margin-bottom: 20px !important;
+    height: fit-content;
+    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 2px 4px 2px #646463dc;
 }
 .proj-card:hover {
-    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 2px 4px 2px #646463dc;
+    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 1px 4px 6px #646463dc;
     transform: scale(1.02);
+}
+.proj-heading{
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: fit-content;
+    border-bottom: 2px solid red;
 }
 .proj-img {
     width: 28rem;
@@ -75,7 +87,17 @@
     border-radius: 8px;
     background-position: center;
     background-size: cover;
+    content: 'asljdfowdo';
+    color: #f0f0f0;
+    background-image: url(../../imgs/inotebook.png);
 }
-.proj-img:hover {
-    filter: brightness(50%) blur(2px);
+.proj-card a {
+    margin-bottom: -25px;
+}
+.proj-details{
+    /* font-family: 'Bai Jamjuree', sans-serif; */
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
 }

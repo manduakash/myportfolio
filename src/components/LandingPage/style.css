@@ -1,16 +1,16 @@
 .landing-page-section{
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     background: #ffffff;
 }
 
 .header-text{
-    top: -100px !important;
+    margin-top: -100px !important;
 }
-
 .title h1{
     font-size: 6vw;
     text-transform: uppercase;
+    color: #424242;
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 700;
@@ -18,11 +18,42 @@
 
 .subtitle h1{
     font-size: 14vw;
-    color: #4b4b4b;
+    color: #ffffff;
+    -webkit-text-stroke: 3px #4b4b4b;
+    text-shadow: 10px 6px 4px #292929;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 700;
+}
+.subtitle h1 div{
+    display: inline;
+}
+#P {
+    display: inline;
+    margin-top: -28px;
+    font-size: 14vw;
+    color: #ffffff;
+    -webkit-text-stroke: 3px #4b4b4b;
+    text-shadow: 10px 6px 4px #292929;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    z-index: -4;
+}
+#O {
+    display: inline;
+    margin-top: -28px;
+    font-size: 14vw;
+    color: #ffffff;
+    -webkit-text-stroke: 3px #4b4b4b;
+    text-shadow: 10px 6px 4px #292929;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    mix-blend-mode: darken;
 }
 .myself h5{
     font-size: 2vw;
@@ -32,15 +63,45 @@
     font-weight: 700;
 }
 .title {
+    margin-top: -100px;
     height: 100px;
     overflow-y: hidden;
 }
 
 .subtitle {
+    margin-top: 10px;
     height: 200px;
     overflow-y: hidden;
 }
 .myself {
+    margin-top: 10px;
     height: 50px;
     overflow-y: hidden;
+}
+.svg {
+    margin-top: 50px;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    height: 1000px;
+    width: 1200px;
+    top: -40%;
+}
+.subtitle svg {
+    position: relative;
+    height: 1000px;
+    width: 1200px;
+}
+#svg {
+    stroke: #e44c4c;
+    /* stroke: #e44c4cc4; */
+    stroke-width: 5px;
+    stroke-dasharray: 3750;
+    stroke-dashoffset: 3750;
+    animation: draw 5s ease-in-out infinite alternate;
+}
+@keyframes draw {
+    to{
+        stroke-dashoffset: 0;
+    }
 }

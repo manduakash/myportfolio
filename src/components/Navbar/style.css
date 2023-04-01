@@ -7,16 +7,48 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 5px 50px;
     font-size: 24px;
     letter-spacing: 1px;
     font-family: 'Syncopate';
     color: #464646;
-    background: #ffffff46;
+    background: #fdfdfd65;
     font-weight: 600;
     text-transform: uppercase;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(5px);
 }
 .cv{
     cursor: pointer;
+}
+.aslogo-div {
+    display: inline;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 100px;
+    background-image: linear-gradient(35deg, rgba(122, 121, 121, 0.541),rgba(122, 121, 121, 0.185), rgba(122, 121, 121, 0.014), transparent);
+}
+.aslogo-div img {
+    transform: rotateY(0deg);
+    height: 25px;
+    width: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+    transition-duration: 500ms;
+}
+.portfolio:hover img{
+    transform: rotateY(360deg);
+    transition-duration: 500ms;
+}
+.menu-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: #464646;
 }
