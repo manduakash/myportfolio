@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.cb87518a.css",
+    "main.js": "/myportfolio/static/js/main.27bc95c1.js",
+    "static/media/landing_page_img.jpg": "/myportfolio/static/media/landing_page_img.d05dd9210b33f8514890.jpg",
+    "static/media/inotebook.png": "/myportfolio/static/media/inotebook.07e6804c8081c749b0dd.png",
+    "static/media/bankmanagementsystem.png": "/myportfolio/static/media/bankmanagementsystem.22c186fba672d7687686.png",
+    "static/media/alumnimanagementsystem.png": "/myportfolio/static/media/alumnimanagementsystem.3cf09d9b4212dab5b6b4.png",
+    "static/media/news-walah.png": "/myportfolio/static/media/news-walah.3c3e99cb1f8a55f88a8c.png",
+    "static/media/portfolio.png": "/myportfolio/static/media/portfolio.41a5cc58b6e279067985.png",
+    "static/media/textutils.png": "/myportfolio/static/media/textutils.67b2b88d291229c9b2b8.png",
+    "static/media/guitar.jpg": "/myportfolio/static/media/guitar.d5a7582355c0b81ccce7.jpg",
+    "static/media/contact.jpg": "/myportfolio/static/media/contact.b512d32c41798de89442.jpg",
+    "static/media/travelling.jpg": "/myportfolio/static/media/travelling.fe6289653d1a9fe7ed4c.jpg",
+    "static/media/coding.png": "/myportfolio/static/media/coding.d0cf8c0c4bd89ee46719.png",
+    "index.html": "/myportfolio/index.html",
+    "main.cb87518a.css.map": "/myportfolio/static/css/main.cb87518a.css.map",
+    "main.27bc95c1.js.map": "/myportfolio/static/js/main.27bc95c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb87518a.css",
+    "static/js/main.27bc95c1.js"
+  ]
+}
