@@ -28,3 +28,10 @@
     font-weight: bold;
     color: #b43737;
 }
+
+/* css for small devices (smart phones) */
+@media (max-width: 600px) {
+    .header-container {
+       display: none;
+    }
+}

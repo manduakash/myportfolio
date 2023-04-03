@@ -1,4 +1,4 @@
-.project-section{
+.project-section {
     overflow: hidden;
     width: 100%;
     min-height: 100vh;
@@ -10,6 +10,8 @@
     width: 100%;
     padding-top: 50px;
 }
+
+/* title and subtitle */
 .project-title {
     display: flex;
     justify-content: center;
@@ -17,6 +19,7 @@
     width: 50%;
     transform: skew(10deg, 3deg);
 }
+
 .project-subtitle {
     display: flex;
     justify-content: center;
@@ -26,6 +29,7 @@
     margin-top: 25px;
     transform: skew(10deg, 3deg);
 }
+
 .project-title h1 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -34,10 +38,12 @@
     font-family: 'Bodoni Moda', serif;
     font-size: 2vw;
     font-weight: 400;
+    color: #db4a1e;
     letter-spacing: 8px;
     background: #f1e868;
     box-shadow: 2px 5px 2px #666229;
 }
+
 .project-subtitle h1 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -50,9 +56,131 @@
     background: #a19b46;
     box-shadow: 2px 5px 2px #596629;
 }
+
+/* projects */
 .projects-container {
     width: 100%;
     min-height: 100vh;
+    margin-top: 50px;
+}
+
+.proj-card {
+    background: #f0f0f0;
+    color: #616161;
+    border-radius: 8px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(170, 170, 170);
+    font-family: 'Bodoni Moda', serif;
+    margin-bottom: 20px !important;
+    height: fit-content;
+    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 2px 4px 2px #646463dc;
+}
+
+.proj-card:hover {
+    box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 1px 4px 6px #646463dc;
+    transform: scale(1.02);
+}
+
+.proj-heading {
+    color: #313131;
+    text-shadow: 0px 1px 1px #fa0707;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: fit-content;
+    border-bottom: 2px solid red;
+}
+
+.proj-img {
+    width: 28rem;
+    height: 16rem;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    content: 'asljdfowdo';
+    color: #f0f0f0;
+    background-image: url(../../imgs/inotebook.png);
+}
+
+.proj-card a {
+    margin-bottom: -25px;
+}
+.btn-dark{
+    box-shadow: inset 2px -2px 5px #f0f0f0;
+    text-shadow: none;
+    transition-duration: 1000ms;
+}
+.btn-dark:hover {
+    background: #212121;
+    box-shadow: inset 2px -6px 10px #f0f0f0;
+    text-shadow: 1px -2px 2px #f0f0f0;
+    transition-duration: text-shadow 700ms;
+}
+.proj-details {
+    /* font-family: 'Bai Jamjuree', sans-serif; */
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+/* styling for moblie devices */
+@media (max-width: 600px) {
+
+    /* title and subtitle */
+    .project-title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        transform: skew(10deg, 3deg);
+    }
+
+    .project-subtitle {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 400px;
+        margin-top: 20px;
+        transform: skew(10deg, 3deg);
+    }
+
+    .project-title h1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 5vw;
+        font-weight: 400;
+        letter-spacing: 8px;
+        background: #f1e868;
+        box-shadow: 2px 5px 2px #666229;
+    }
+
+    .project-subtitle h1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 70px;
+        padding-right: 70px;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 5vw;
+        font-weight: 400;
+        letter-spacing: 4px;
+        background: #a19b46;
+        box-shadow: 2px 5px 2px #596629;
+    }
+    /* projects */
+.projects-container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-top: 50px;
 }
 
@@ -68,11 +196,13 @@
     height: fit-content;
     box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 2px 4px 2px #646463dc;
 }
+
 .proj-card:hover {
     box-shadow: inset 10px -5px 10px #ffffff, inset 2px 2px 50px #797979, 1px 4px 6px #646463dc;
     transform: scale(1.02);
 }
-.proj-heading{
+
+.proj-heading {
     font-weight: bold;
     padding-bottom: 0;
     margin-right: auto;
@@ -81,9 +211,10 @@
     width: fit-content;
     border-bottom: 2px solid red;
 }
+
 .proj-img {
-    width: 28rem;
-    height: 16rem;
+    width: 21.5rem;
+    height: 12rem;
     border-radius: 8px;
     background-position: center;
     background-size: cover;
@@ -91,13 +222,16 @@
     color: #f0f0f0;
     background-image: url(../../imgs/inotebook.png);
 }
+
 .proj-card a {
     margin-bottom: -25px;
 }
-.proj-details{
+
+.proj-details {
     /* font-family: 'Bai Jamjuree', sans-serif; */
     font-size: small;
     margin-left: 5px;
     margin-right: 5px;
     text-align: justify;
+}
 }

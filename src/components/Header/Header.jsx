@@ -4,7 +4,7 @@ import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import './style.css'
 
 
-const Header = () => {
+const Header = (props) => {
   const { scroll } = useLocomotiveScroll();
   useEffect(() => {
     if (scroll) {
@@ -21,13 +21,14 @@ const Header = () => {
   }, [scroll])
 
   return (
-    <section className='header-container' id='home-section' data-scroll-section>
+    <section className='header-container' id='home-section' data-scroll-section style={props.darkModeStyle}>
       <ul className='header-menu'>
         <li className="scroll" data-scroll ><a data-scroll-to href="#home-section">Intro</a></li>
         <li className="scroll" data-scroll ><a data-scroll-to href="#about-section">About</a></li>
         <li className="scroll" data-scroll ><a data-scroll-to href="#tech-section">Skills</a></li>
         <li className="scroll" data-scroll ><a data-scroll-to href="#project-section">Projects</a></li>
         <li className="scroll" data-scroll ><a data-scroll-to href="#contact-section">Contact</a></li>
+        <li className="scroll" data-scroll><a onClick={()=>{props.darkModeEnable()}} href='#home-section'>Dark Mode: {props.darkMode?(<span className="text-danger">on</span>):(<span className="text-danger">off</span>)}</a></li>
       </ul>
     </section>
   )

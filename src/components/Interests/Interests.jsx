@@ -18,9 +18,17 @@ const PersonalDetails = () => {
       scroll.on('scroll', (obj) => {
         let temp1 = obj.scroll.y - 4400;
         let temp2 = obj.scroll.y - 4800;
+        let temp1M = obj.scroll.y - 6000;
+        let temp2M = obj.scroll.y - 5000;
         // heading scroll
-        interestTitleRef.current.style.transform = `translateX(${temp1 * 0.5}px)`
-        interestSubtitleRef.current.style.transform = `translateX(-${temp2 * 0.5}px)`
+        if(window.innerWidth<600){
+        interestTitleRef.current.style.transform = `translateX(${temp1M * 0.5}px)`
+        interestSubtitleRef.current.style.transform = `translateX(-${temp2M * 0.5}px)`
+        }
+        if(window.innerWidth>600){
+          interestTitleRef.current.style.transform = `translateX(${temp1 * 0.5}px)`
+          interestSubtitleRef.current.style.transform = `translateX(-${temp2 * 0.5}px)`
+          }
         // setting title
         if (obj.scroll.y>4400 && obj.scroll.y<5500 ) {
           document.getElementById('title').innerText = 'Portfolio | Interests & Hobbies';
@@ -30,7 +38,7 @@ const PersonalDetails = () => {
     return () => { };
   }, [scroll])
   return (
-    <section className='Interests-section' data-scroll-section id='interest-section'>
+    <section className='Interests-section container-fluid' data-scroll-section id='interest-section'>
       <div className="interests-container">
         {/* ----------------------header----------------------- */}
         <div className="interests-header">
@@ -46,9 +54,9 @@ const PersonalDetails = () => {
 
         {/* ----------------------header----------------------- */}
         {/* react */}
-        <div className="d-flex justify-content-center text-center p-1 px-5 py-3 m-1">
+        <div className="row text-center px-1 py-5">
           {/* travelling */}
-          <div className='m-2 p-2 col-md-4 justify-content-center' data-scroll>
+          <div className='col-md-4 pb-3 justify-content-center' data-scroll>
             <div className='intrst-img-div'>
               <img className='intrst-img' src={travelling} alt="react" />
             </div>
@@ -56,7 +64,7 @@ const PersonalDetails = () => {
           </div>
 
           {/* coding */}
-          <div className='m-2 p-2 col-md-4 justify-content-center' data-scroll>
+          <div className='col-md-4 pb-3 justify-content-center' data-scroll>
             <div className='intrst-img-div'>
               <img className='intrst-img' src={coding} alt="react" />
             </div>
@@ -64,7 +72,7 @@ const PersonalDetails = () => {
           </div>
 
           {/* guitar */}
-          <div className='m-2 p-2 col-md-4 justify-content-center' data-scroll>
+          <div className='col-md-4 pb-3 justify-content-center' data-scroll>
             <div className='intrst-img-div'>
               <img className='intrst-img' src={guitar} alt="react" />
             </div>

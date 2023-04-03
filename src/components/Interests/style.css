@@ -8,6 +8,8 @@
     width: 100%;
     padding-top: 50px;
 }
+
+/* title and subtitle */
 .interests-title {
     display: flex;
     justify-content: center;
@@ -15,6 +17,7 @@
     width: 50%;
     transform: skew(10deg, 3deg);
 }
+
 .interests-subtitle {
     display: flex;
     justify-content: center;
@@ -24,6 +27,7 @@
     margin-top: 25px;
     transform: skew(10deg, 3deg);
 }
+
 .interests-title h1 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -34,8 +38,10 @@
     font-weight: 400;
     letter-spacing: 8px;
     background: #f1e868;
+    color: #db4a1e !important;
     box-shadow: 2px 5px 2px #666229;
 }
+
 .interests-subtitle h1 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -48,6 +54,7 @@
     background: #a19b46;
     box-shadow: 2px 5px 2px #596629;
 }
+
 .intrst-img-div {
     width: 20rem;
     height: 20rem;
@@ -62,11 +69,13 @@
     box-shadow: 0px 6px 4px #6b6b6b;
     transition-duration: 500ms;
 }
+
 .intrst-img-div:hover {
     box-shadow: 0px 8px 8px #252525b4;
     transform: scale(1.08);
     transition-duration: 500ms;
 }
+
 .intrst-img {
     width: 20rem;
     height: 20rem;
@@ -76,6 +85,7 @@
     filter: grayscale(100%);
     transition-duration: 3000ms;
 }
+
 .intrst-img:hover {
     transform: scale(1.03);
     border-top: 3px solid rgba(107, 106, 106, 0.658);
@@ -84,6 +94,7 @@
     transform: scale(1.2);
     transition-duration: 500ms;
 }
+
 .intrst-heading {
     font-family: 'Syncopate', sans-serif;
     font-size: 1.3vw;
@@ -93,4 +104,68 @@
     padding-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* css for small devices (smart phones) */
+@media (max-width: 600px) {
+    .Interests-section {
+        width: 100vw;
+        min-height: 100vh;
+        padding-top: 0;
+    }
+
+    /* title and subtitle */
+    .interests-title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        transform: skew(10deg, 3deg);
+    }
+
+    .interests-subtitle {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 550px;
+        margin-top: 25px;
+        transform: skew(10deg, 3deg);
+    }
+
+    .interests-title h1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 5vw;
+        font-weight: 400;
+        letter-spacing: 8px;
+        background: #f1e868;
+        box-shadow: 2px 5px 2px #666229;
+    }
+
+    .interests-subtitle h1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 4vw;
+        font-weight: 400;
+        letter-spacing: 4px;
+        background: #a19b46;
+        box-shadow: 2px 5px 2px #596629;
+    }
+    .intrst-heading {
+        font-family: 'Syncopate', sans-serif;
+        font-size: 3.5vw;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }

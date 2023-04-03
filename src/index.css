@@ -10,3 +10,9 @@ body {
     font-family: "Poppins", sans-serif;
     cursor:default;
 }
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+}

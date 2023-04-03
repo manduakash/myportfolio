@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container text-white">
         <div className="footer-content row">
           {/* portfolio-logo */}
-          <div className="footer-logo col-md-3 mb-3 pb-3 pb-3">
+          <div className="footer-logo col-md-3 mb-3 pb-3">
             <div className="portfolio-logo pb-0 mb-0">
               <img className='footer-logo-img d-inline' src={aslogo} alt="aslogo" />
               <h2 className='d-inline py-2 fw-bolder'><span className='text-danger fw-bold fs-1'>P</span>ortfolio</h2>

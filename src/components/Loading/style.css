@@ -1,0 +1,97 @@
+.loading {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background: #212121;
+    background-image: linear-gradient(to bottom, #221f1f8e, #000), url(../../imgs/landing_page_img.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+}
+
+.loading-container {
+    width: 100%;
+    margin-top: 90px;
+    transform-origin: center;
+}
+
+.loading-aslogo-div {
+    display: inline;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px 20px;
+    background: #fff;
+}
+
+.loading-aslogo-div img {
+    transform: rotateY(0deg);
+    height: 70px;
+    width: 100px;
+    margin-top: -30px;
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
+
+.loading-portfolio p {
+    display: inline;
+    border-bottom: 4px solid #f12356;
+}
+.loading-portfolio span {
+    color: #f12356;
+}
+
+.loading-portfolio {
+    font-size: 8vw;
+    color: #ffffff;
+    background: transparent;
+    -webkit-text-stroke: 3px #4b4b4b;
+    text-shadow: 6px 2px 4px #b8b8b8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+}
+
+lottie-player {
+    filter: hue-rotate(140deg);
+}
+
+@media (max-width: 600px) {
+
+    .loading {
+        position: absolute;
+        width: 100%;
+        min-height: 100vh;
+        background: #212121;
+        background-image: linear-gradient(to bottom, #1414148e, #000), url(../../imgs/landing_page_img.jpg);
+        background-position: center;
+        background-size: cover;
+        z-index: 999;
+    }
+    .loading-container {
+        width: 100%;
+        margin-top: 200px;
+        transform-origin: center;
+    }
+    .loading-aslogo-div {
+        display: none;
+    }
+    .loading-portfolio {
+        font-size: 12vw;
+        color: #ffffff;
+        background: transparent;
+        -webkit-text-stroke: 1px #4b4b4b;
+        text-shadow: 2px 2px 4px #b8b8b8;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 700;
+    }
+}

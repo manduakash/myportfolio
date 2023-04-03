@@ -27,12 +27,22 @@ const TechSkills = () => {
       scroll.on('scroll', (obj) => {
         let temp1 = obj.scroll.y - 700;
         let temp2 = obj.scroll.y - 999;
+        let temp1M = obj.scroll.y - 1550;
+        let temp2M = obj.scroll.y - 500;
         let skillbubble = obj.scroll.y - 1350;
         let progress = obj.scroll.y - 2300;
+        let progressM = obj.scroll.y - 2100;
         // heading scroll
-        techtitleRef.current.style.transform = `translateX(${temp1 * 0.5}px)`
-        techsubtitleRef.current.style.transform = `translateX(-${temp2 * 0.5}px)`
+        if(window.innerWidth<600){
+          techtitleRef.current.style.transform = `translateX(${temp1M * 0.5}px)`
+          techsubtitleRef.current.style.transform = `translateX(-${temp2M * 0.5}px)`
+        }
+        if(window.innerWidth>600){
+          techtitleRef.current.style.transform = `translateX(${temp1 * 0.5}px)`
+          techsubtitleRef.current.style.transform = `translateX(-${temp2 * 0.5}px)`
+        }
         //progress scroll
+        if(window.innerWidth>600){
         document.getElementById('progress-React').style.transform = `translateX(${(progress > 20 ? (progress - 20) : 0) * 2.3}px)`
         document.getElementById('progress-Html').style.transform = `translateX(-${(progress > 50 ? (progress - 50) : 0) * 2.3}px)`
         document.getElementById('progress-Css').style.transform = `translateX(${(progress > 100 ? (progress - 100) : 0) * 2.3}px)`
@@ -45,6 +55,22 @@ const TechSkills = () => {
         document.getElementById('progress-MySQL').style.transform = `translateX(-${(progress > 450 ? (progress - 450) : 0) * 2.3}px)`
         document.getElementById('progress-MongoDB').style.transform = `translateX(${(progress > 500 ? (progress - 500) : 0) * 2.3}px)`
         document.getElementById('progress-Java').style.transform = `translateX(-${(progress > 550 ? (progress - 550) : 0) * 2.3}px)`
+        }
+        if(window.innerWidth<600){
+        document.getElementById('progress-React').style.transform = `translateX(${(progressM > 20 ? (progressM - 20) : 0) * 2.3}px)`
+        document.getElementById('progress-Html').style.transform = `translateX(-${(progressM > 50 ? (progressM - 50) : 0) * 2.3}px)`
+        document.getElementById('progress-Css').style.transform = `translateX(${(progressM > 100 ? (progressM - 100) : 0) * 2.3}px)`
+        document.getElementById('progress-JavaScript').style.transform = `translateX(-${(progressM > 150 ? (progressM - 150) : 0) * 2.3}px)`
+        document.getElementById('progress-Bootstrap').style.transform = `translateX(${(progressM > 200 ? (progressM - 200) : 0) * 2.3}px)`
+        document.getElementById('progress-Angular').style.transform = `translateX(-${(progressM > 250 ? (progressM - 250) : 0) * 2.3}px)`
+        document.getElementById('progress-Express').style.transform = `translateX(${(progressM > 300 ? (progressM - 300) : 0) * 2.3}px)`
+        document.getElementById('progress-Node').style.transform = `translateX(-${(progressM > 350 ? (progressM - 350) : 0) * 2.3}px)`
+        document.getElementById('progress-Python').style.transform = `translateX(${(progressM > 400 ? (progressM - 400) : 0) * 2.3}px)`
+        document.getElementById('progress-MySQL').style.transform = `translateX(-${(progressM > 450 ? (progressM - 450) : 0) * 2.3}px)`
+        document.getElementById('progress-MongoDB').style.transform = `translateX(${(progressM > 500 ? (progressM - 500) : 0) * 2.3}px)`
+        document.getElementById('progress-Java').style.transform = `translateX(-${(progressM > 550 ? (progressM - 550) : 0) * 2.3}px)`
+        }
+
         // skill bubble scroll
         document.getElementById('f-skill1').style.transform = `scale(0.7) translateX(-${(skillbubble > 250 ? (skillbubble - 250) : 0) * 8}px)`
         document.getElementById('f-skill2').style.transform = `scale(0.7) translateX(-${(skillbubble > 250 ? (skillbubble - 250) : 0) * 8}px)`

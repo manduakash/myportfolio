@@ -1,0 +1,21 @@
+.App {
+    width: 100vw;
+    overflow-x: hidden;
+    background: #e4e4e4;
+}
+.main-container {
+    background: #e4e4e4;
+}
+
+/* css for small devices (smart phones) */
+@media (max-width: 600px) {
+    body::-webkit-scrollbar {
+        width: 0 !important;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    body::-webkit-scrollbar-thumb {
+        background: #FF0000;
+    }
+
+}

@@ -7,6 +7,8 @@
     border-top: 3px solid #808080b2;
     border-bottom: 3px solid #808080ab;
 }
+
+/* bg image */
 .bg-img {
     width: 50vw;
     height: 100vh;
@@ -18,6 +20,8 @@
     background-size: cover;
     border: none;
 }
+
+/* title  */
 .contact-heading {
     width: fit-content;
     font-size: 4vw;
@@ -31,6 +35,8 @@
     padding-top: 30px;
     margin-left: 100px;
 }
+
+/* content */
 .contact-details {
     width: 50%;
     left: 0;
@@ -43,15 +49,19 @@
     font-family: 'Bai Jamjuree', sans-serif;
     text-transform: uppercase;
 }
+
 .contact-detail {
     margin-top: 5px;
     margin-bottom: 5px;
     letter-spacing: 2px;
 }
-.contact-detail span{
-   font-size: small;
+
+.contact-detail span {
+    font-size: small;
 }
-.social-media-brands{
+
+/* social media */
+.social-media-brands {
     font-size: 2vw;
     color: white;
     background: #ffffff3a;
@@ -68,8 +78,86 @@
     box-shadow: inset 1px 1px 1px #acacac, inset -3px -2px 3px #7c7b7b, inset 2px 4px 10px #dbdbdb80, 0px 4px 4px #5a5a5a;
     transition-duration: 500ms;
 }
-.social-media-brands:hover{
+
+.social-media-brands:hover {
     color: #df0c0c;
     background: white;
     transition-duration: 500ms;
+}
+
+/* css for small devices (smart phones) */
+@media (max-width: 600px) {
+    .bg-img {
+        display: none;
+    }
+
+    .contact-section {
+        width: 100%;
+        background-color: #212121;
+        background-image: linear-gradient(45deg, #c512123f, #0000009c, #000000b0), linear-gradient(to left, #212121, #00000000, #b1b1b300), url(../../imgs/contact.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .contact-heading {
+        width: 100%;
+        font-size: 8vw;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: bold;
+        border-bottom: 4px solid #dc3545;
+        padding-bottom: 0px;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+    /* content */
+    .contact-details {
+        width: 100%;
+        left: 0;
+        margin-top: 250px;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        color: #ffff;
+        text-decoration: none;
+        color: #ffff;
+        font-size: large;
+        font-family: 'Bai Jamjuree', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .contact-detail {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        letter-spacing: 2px;
+    }
+
+    .contact-detail span {
+        font-size: small;
+    }
+
+    /* social media */
+    .social-media {
+        padding-top: 50px !important;
+    }
+
+    .social-media-brands {
+        font-size: 5vw;
+        color: white;
+        background: #ffffff3a;
+        backdrop-filter: blur(10px);
+        border-top: 2px solid white;
+        border-left: 2px solid white;
+        text-align: center;
+        text-shadow: #212121;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+        margin-right: 10px;
+        box-shadow: inset 1px 1px 1px #acacac, inset -3px -2px 3px #7c7b7b, inset 2px 4px 10px #dbdbdb80, 0px 4px 4px #5a5a5a;
+        transition-duration: 500ms;
+    }
 }

@@ -35,7 +35,7 @@ const About = () => {
 
         <div className="subtitle2 d-flex justify-content-start py-auto" >
           <h1 ref={subtitleRef2} data-scroll data-scroll-repeat>
-            <Typed strings={[`web <span style="color: #ffffff00; -webkit-text-stroke: 2px red;">developer</span>`, `react <span style="color: #ffffff00; -webkit-text-stroke: 2px red;">developer</span>`, 'web designer', `full-stack <span style="color: #ffffff00; -webkit-text-stroke: 2px red;">developer</span>`, `mern-stack <span style="color: #ffffff00; -webkit-text-stroke: 2px red;">developer</span>`]}
+            <Typed strings={[`web <span style="color: #ffffff00; -webkit-text-stroke: ${window.innerWidth>600?'2px':'1px'} red;">developer</span>`, `react <span style="color: #ffffff00; -webkit-text-stroke: ${window.innerWidth>600?'2px':'1px'} red;">developer</span>`, 'web designer', `full-stack <span style="color: #ffffff00; -webkit-text-stroke: ${window.innerWidth>600?'2px':'1px'} red;">developer</span>`, `mern-stack <span style="color: #ffffff00; -webkit-text-stroke: ${window.innerWidth>600?'2px':'1px'} red;">developer</span>`]}
               typeSpeed={60} backSpeed={40} loop>
             </Typed>
           </h1>
