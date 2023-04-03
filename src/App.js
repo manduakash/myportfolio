@@ -86,16 +86,16 @@ function App() {
 
 
           {/* loading component */}
-          {isLoading && (<Loading data-scroll-section timer={timer} />)}
+          {isLoading && (<Loading timer={timer} />)}
 
           {/* navbar component */}
-          <Navbar data-scroll-section showAlert={showAlert} />
+          <Navbar showAlert={showAlert} />
 
           {/* side menu bar component */}
-          <OffcanvasMenu data-scroll-section showAlert={showAlert} setDarkMode={setDarkMode} darkMode={darkMode} darkModeStyle={darkModeStyle} setDarkModeStyle={setDarkModeStyle} darkModeEnable={darkModeEnable} />
+          <OffcanvasMenu showAlert={showAlert} setDarkMode={setDarkMode} darkMode={darkMode} darkModeStyle={darkModeStyle} setDarkModeStyle={setDarkModeStyle} darkModeEnable={darkModeEnable} />
 
           {/* alert component */}
-          {alert && (<Alert data-scroll-section alert={alert} />)}
+          {alert && (<Alert alert={alert} />)}
 
           {/* Header component */}
           <Header darkModeStyle={darkModeStyle} darkModeEnable={darkModeEnable} darkMode={darkMode} />

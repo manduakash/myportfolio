@@ -16,8 +16,6 @@ const Navbar = (props) => {
     aTag.remove();
     props.showAlert(true,'success','CV has been downloaded successfully.')
   }
-  // locomotive scroll
-  // const { scroll } = useLocomotiveScroll();
   return (
     <div className='navbar'>
       <a className='menu-btn' type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">{window.innerWidth<600?(<i className="fa-solid fa-bars fa-xs pe-1 py-auto" style={{color: "#464646"}}></i>):<span></span>}Menu</a>
