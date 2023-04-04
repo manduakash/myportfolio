@@ -217,5 +217,21 @@
         stroke-dashoffset: 3750;
         animation: draw 8s ease-in-out infinite alternate;
     }
-
+}
+@media (max-width: 500px) {
+    .svg {
+        margin-top: 385px;
+    }
+    .subtitle h1 {
+        -webkit-text-stroke: 1px #4b4b4b;
+        text-shadow: 4px 2px 4px #292929;
+    }
+    #P{
+        -webkit-text-stroke: 1px #4b4b4b;
+        text-shadow: 4px 2px 4px #292929;
+    }
+    #O{
+        -webkit-text-stroke: 1px #4b4b4b;
+        text-shadow: 4px 2px 4px #292929;
+    }
 }

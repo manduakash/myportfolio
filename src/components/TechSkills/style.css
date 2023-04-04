@@ -265,3 +265,10 @@
         transform: scale(1.05) !important;
     }
 }
+@media (max-width: 500px) {
+    .f-skills img {
+        border-radius: 50px;
+        width: 10vw;
+        height: 4vh;
+    }
+}

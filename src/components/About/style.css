@@ -105,3 +105,14 @@
         font-weight: 400;
     }
 }
+@media (max-width: 500px) {
+    .about-text{
+        top: 450px;
+    }
+    .details-section{
+        margin-top: 450px;
+    }
+    .details-section{
+        left: 50px;
+    }
+}

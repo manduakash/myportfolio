@@ -15,6 +15,12 @@ const About = () => {
     if (scroll) {
       scroll.on('scroll', (obj) => {
         let temp = obj.scroll.y-770;
+        let tempM = obj.scroll.y-670;
+        if(window.innerWidth>500){
+          titleRef2.current.style.transform = `translateY(${tempM * .5}px)`
+          subtitleRef2.current.style.transform = `translateY(${tempM * .5}px)`
+          details.current.style.transform = `translateX(${tempM * .5}px)`
+        }
         titleRef2.current.style.transform = `translateY(${temp * 0.5}px)`
         subtitleRef2.current.style.transform = `translateY(${temp * 0.5}px)`
         details.current.style.transform = `translateX(${temp * .5}px)`
