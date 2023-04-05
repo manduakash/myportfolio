@@ -28,36 +28,6 @@
     font-weight: 700;
 }
 
-.subtitle h1 div {
-    display: inline;
-}
-
-#P {
-    display: inline;
-    margin-top: -28px;
-    font-size: 14vw;
-    color: #ffffff;
-    -webkit-text-stroke: 3px #4b4b4b;
-    text-shadow: 10px 6px 4px #292929;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: 700;
-}
-
-#O {
-    display: inline;
-    margin-top: -28px;
-    font-size: 14vw;
-    color: #ffffff;
-    -webkit-text-stroke: 3px #4b4b4b;
-    text-shadow: 10px 6px 4px #292929;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: 700;
-}
-
 .myself h5 {
     font-size: 2vw;
     text-transform: uppercase;
@@ -82,29 +52,6 @@
     margin-top: 10px;
     height: 50px;
     overflow-y: hidden;
-}
-
-.svg {
-    margin-top: 50px;
-    position: absolute;
-    overflow: hidden;
-    height: 1000px;
-    width: 1200px;
-    top: -40%;
-}
-
-.subtitle svg {
-    position: relative;
-    height: 1000px;
-    width: 1200px;
-}
-
-#svg {
-    stroke: #e44c4c;
-    stroke-width: 5px;
-    stroke-dasharray: 3750;
-    stroke-dashoffset: 3750;
-    animation: draw 5s ease-in-out infinite alternate;
 }
 
 @keyframes draw {
@@ -145,48 +92,19 @@
     }
 
     .subtitle h1 {
-        font-size: 14vw;
+        font-size: 16vw;
         color: #ffffff;
         background: transparent;
         -webkit-text-stroke: 3px #4b4b4b;
         text-shadow: 6px 2px 4px #292929;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 1px;
         text-align: center;
         font-family: 'Bai Jamjuree', sans-serif;
         font-weight: 700;
         z-index: 10;
     }
 
-    #P {
-        display: inline-block;
-        margin-top: -7px;
-        padding-right: 2px;
-        letter-spacing: 5px;
-        font-size: 14vw;
-        color: #ffffff;
-        -webkit-text-stroke: 3px #4b4b4b;
-        text-shadow: 6px 2px 4px #292929;
-        text-transform: uppercase;
-        text-align: center;
-        font-family: 'Bai Jamjuree', sans-serif;
-        font-weight: 700;
-        z-index: 10;
-    }
-
-    #O {
-        display: inline;
-        margin-top: -8px;
-        font-size: 14vw;
-        color: #ffffff;
-        -webkit-text-stroke: 3px #4b4b4b;
-        text-shadow: 6px 2px 4px #292929;
-        text-transform: uppercase;
-        text-align: center;
-        font-family: 'Bai Jamjuree', sans-serif;
-        font-weight: 700;
-        z-index: 10;
-    }
     .myself h5 {
         font-size: 4vw;
         text-transform: uppercase;
@@ -195,42 +113,9 @@
         font-weight: 700;
         z-index: 10;
     }
-    .svg {
-        margin-top: 425px;
-        position: absolute;
-        overflow: hidden;
-        z-index: 2;
-        height: 400px;
-        width: 400px;
-        top: -40%;
-    }
-
-    .subtitle svg {
-        position: relative;
-        height: 400px;
-        width: 400px;
-    }
-    #svg {
-        stroke: #e44c4c;
-        stroke-width: 5px;
-        stroke-dasharray: 3750;
-        stroke-dashoffset: 3750;
-        animation: draw 8s ease-in-out infinite alternate;
-    }
 }
 @media (max-width: 500px) {
-    .svg {
-        margin-top: 385px;
-    }
     .subtitle h1 {
-        -webkit-text-stroke: 1px #4b4b4b;
-        text-shadow: 4px 2px 4px #292929;
-    }
-    #P{
-        -webkit-text-stroke: 1px #4b4b4b;
-        text-shadow: 4px 2px 4px #292929;
-    }
-    #O{
         -webkit-text-stroke: 1px #4b4b4b;
         text-shadow: 4px 2px 4px #292929;
     }

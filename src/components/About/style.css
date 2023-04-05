@@ -31,7 +31,7 @@
     font-weight: 700;
 }
 .title2 {
-    height: 80px;
+    height: 100px;
     overflow-y: hidden;
 }
 .subtitle2 {
@@ -41,7 +41,7 @@
 .details-section{
     position: relative;
     text-align: justify !important;
-    left: 130px;
+    left: 100px;
     margin-top: 300px;
     color: azure !important;
     font-size: 1vw;
@@ -113,6 +113,6 @@
         margin-top: 450px;
     }
     .details-section{
-        left: 50px;
+        left: 10px;
     }
 }

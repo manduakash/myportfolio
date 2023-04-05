@@ -10,7 +10,7 @@ const Navbar = (props) => {
   // method for downloading the cv
   const downloadCV = ()=> {
     const aTag = document.createElement('a');
-    aTag.href = 'https://manduakash.github.com/myportfolio/cv_akash_singh.pdf';
+    aTag.href = 'https://manduakash.github.io/myportfolio/cv_akash_singh.pdf';
     aTag.setAttribute('download', 'cv_akash_singh.pdf');
     aTag.click();
     aTag.remove();
